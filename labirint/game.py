@@ -89,7 +89,7 @@ class Game(ShowBase):
         self.modell17.reparentTo(render)
         self.modell17.setScale(0.4)
         self.modell17.setP(90)
-        self.modell17.setPos(10,20,1)
+        self.modell17.setPos(10,23,0.5)
         self.modell18 = loader.loadModel("grass.obj")
         self.modell18.reparentTo(render)
         self.modell18.setScale(0.008)
